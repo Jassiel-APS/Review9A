@@ -1,12 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Login from './src/modules/auth/screens/Login';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <Login />
+    /*
+    <View style={{ flex: 1, backgroundColor: 'red'}}>
+      <View style={{ flex: 1, backgroundColor: 'blue' }}></View>
+      <View style={{ flex: 1, backgroundColor: 'white' }}></View>
+      <View style={{ flex: 1, backgroundColor: 'red' }}></View>
     </View>
+    */
   );
 }
 
